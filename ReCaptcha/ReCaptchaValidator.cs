@@ -42,5 +42,7 @@ public class ReCaptchaValidator
     {
         [JsonPropertyName("success")]
         public bool Success { get; set; }
+        
+        // Other properties ignored
     }
 }
